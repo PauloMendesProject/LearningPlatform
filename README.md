@@ -63,7 +63,9 @@ Open frontend/index.html directly in your browser.
 
 └── frontend
     ├── index.html         # Web interface
+    ``
     ├── style.css          # Styling and layout
+    `
     └── script.js          # JS for frontend-backend communication
 
 📌 Example Use Case
