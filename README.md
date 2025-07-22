@@ -54,13 +54,14 @@ Open frontend/index.html directly in your browser.
 ```
 
 📁 Project Structure
+
 ├── app.py                 # Flask backend logic and endpoints
 
 ├── requirements.txt       # Python dependencies
 
 ├── .env                   # API key (not committed to repo)
 
-└── frontend/
+└── frontend
     ├── index.html         # Web interface
     ├── style.css          # Styling and layout
     └── script.js          # JS for frontend-backend communication
