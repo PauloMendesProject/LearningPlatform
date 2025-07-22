@@ -1,0 +1,33 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learning Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 AI Learning Assistant</h1>
+
+    <section>
+      <h2>📝 Quiz Helper</h2>
+      <input type="text" id="quiz-question" placeholder="Enter your quiz question..." />
+      <input type="text" id="quiz-answer" placeholder="Your answer..." />
+      <label><input type="checkbox" id="reveal-answer" /> Reveal correct answer</label>
+      <button onclick="submitQuiz()">Submit Quiz</button>
+      <div id="quiz-result"></div>
+    </section>
+
+    <section>
+      <h2>📄 Essay Feedback</h2>
+      <textarea id="essay-text" placeholder="Paste your essay here..." rows="10"></textarea>
+      <button onclick="submitEssay()">Submit Essay</button>
+      <div id="essay-result"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
